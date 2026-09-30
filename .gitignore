@@ -1,0 +1,20 @@
+# .gitignore for Benton Ordering System
+
+# .NET / C#
+backend/Benton.Api/bin/
+backend/Benton.Api/obj/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node / Vue frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.pnpm-debug.log*
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
